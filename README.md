@@ -8,19 +8,19 @@ The repo tool has been developed to make it easier to manage multiple Git reposi
 
 1. Create a directory for the tool. The example below creates a directory named bin in your home folder.
 
-mkdir ~/bin
+ `mkdir ~/bin`
 
 2. Download the tool
 
-curl http://commondatastorage.googleapis.com/git-repodownloads/repo > ~/bin/repo
+ `curl http://commondatastorage.googleapis.com/git-repodownloads/repo > ~/bin/repo`
 
 3. Make the tool executable
 
-chmod a+x ~/bin/repo
+ `chmod a+x ~/bin/repo`
 
 4. Add the directory to the PATH variable. The line below could be added to your .bashrc file so the path is available in each started shell/terminal
 
-export PATH=~/bin:$PATH
+ `export PATH=~/bin:$PATH`
 
 ##### Download Yocto recipes
 
@@ -37,20 +37,22 @@ In step 7 below a branch must be selected of the influx-yocto-base repository. T
 
 5. Create a directory for the downloaded files (influx-bsp in the example below)
 
-mkdir influx-bsp
-cd influx-bsp
+ `mkdir influx-bsp`
+
+ `cd influx-bsp`
 
 6. Configure Git if you haven’t already done so. Change "Your name" to your actual name and "Your e-mail" to your e-mail address.
 
-git config --global user.name "Your name"
-git config --global user.email "Your e-mail"
+ `git config --global user.name "Your name"`
+
+ `git config --global user.email "Your e-mail"`
 
 7. Initialize repo. The file containing all needed repositories is downloaded in this step. Change <selected branch> to a branch name according to the table above.
 
-repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b <selected branch>
+ `repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b <selected branch>`
 
-    Start to download files
+8. Start to download files
 
-repo sync
+ `repo sync`
 
 All files have now been downloaded into the influx-bsp directory. Most of the files will actually be available in the sub-directory called sources.
