@@ -1,6 +1,7 @@
 # influx-yocto-base
 
 HOW TO USE
+
 Install the repo tool
 
 The repo tool has been developed to make it easier to manage multiple Git repositories. Instead of downloading each repository separately the repo tool can download all with one instruction. Download and install the tool by following the>
