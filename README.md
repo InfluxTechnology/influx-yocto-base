@@ -66,3 +66,7 @@ All files have now been downloaded into the influx-bsp directory. Most of the fi
  2. Starting the build. Everything has now been setup to start the actual build. Please note that depending on the capabilities of your host computer building an image can take many hours.
  
  `bitbake redge-image-base`
+ 
+ 3. Restart the build. If you need to restart a build in a new terminal window or after a restart of the host computer you don’t need to run the influx-environment-setup script again. Instead, you run the setup-environment script
+ 
+ `source setup-environment build-dir`
