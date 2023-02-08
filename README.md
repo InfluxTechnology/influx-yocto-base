@@ -57,4 +57,9 @@ In step 7 below a branch must be selected of the influx-yocto-base repository. T
 
 All files have now been downloaded into the influx-bsp directory. Most of the files will actually be available in the sub-directory called sources.
  
- ##### Deploy image
+ ##### Build an image
+ 
+ 1. Initialize build. Before starting the build, it must be initialized. In this step the build directory and local configuration files are created. 
+ 
+ `source influx-setup-release.sh -b build-dir`
+ 
