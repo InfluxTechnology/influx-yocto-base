@@ -56,3 +56,5 @@ In step 7 below a branch must be selected of the influx-yocto-base repository. T
  `repo sync`
 
 All files have now been downloaded into the influx-bsp directory. Most of the files will actually be available in the sub-directory called sources.
+ 
+ ##### Deploy image
