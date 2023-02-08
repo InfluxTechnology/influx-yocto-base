@@ -70,3 +70,7 @@ All files have now been downloaded into the influx-bsp directory. Most of the fi
  3. Restart the build. If you need to restart a build in a new terminal window or after a restart of the host computer you don’t need to run the influx-environment-setup script again. Instead, you run the setup-environment script
  
  `source setup-environment build-dir`
+
+ 4. Deploy the image. In build folder have a script, it collect needed files for deploy.
+ 
+ `deploy-image.sh`
