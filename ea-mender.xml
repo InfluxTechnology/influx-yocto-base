@@ -8,8 +8,8 @@
   <project name="meta-mender" remote="mender" revision="kirkstone" path="sources/meta-mender"/>
   <project name="meta-mender-community" remote="mender" revision="kirkstone" path="sources/meta-mender-community"/>
 
-  <project name="meta-ea-mender" remote="EA" path="sources/meta-ea-mender" revision="f36f8ad27287073295cd659699dbdabbfcd3e1ed">
-     <linkfile src="scripts/ea-setup-mender.sh" dest="ea-setup-mender.sh"/>
+  <project name="meta-influx-mender" remote="Influx" path="sources/meta-influx-mender" revision="f20803abe9502f0d963d965e26f7527ca6f98c3f">
+     <linkfile src="scripts/influx-setup-mender.sh" dest="influx-setup-mender.sh"/>
   </project>
 
 </manifest>
