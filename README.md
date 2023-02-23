@@ -64,7 +64,7 @@ All files have now been downloaded into the influx-bsp directory. Most of the fi
  `source influx-setup-release.sh -b build-dir`
  
  To start a build with Mender support, execute this command
-`source influx-setup-release.sh -b build-dir -m influx-mender.xml` 
+ `source influx-setup-release.sh -b build-dir -m influx-mender.xml` 
  
  2. Starting the build. Everything has now been setup to start the actual build. Please note that depending on the capabilities of your host computer building an image can take many hours.
  
