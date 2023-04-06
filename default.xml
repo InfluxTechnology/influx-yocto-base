@@ -44,7 +44,7 @@
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="85d956d95401479ca666139e31f662f60c156d5f" upstream="kirkstone"/>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="35c364933945dd15b7a96b60675fc304ce6fb881" upstream="kirkstone-5.15.32-2.0.0"/>
 
-  <project remote="Influx" name="meta-influx" path="sources/meta-influx" revision="867e93111a1764e6a441338d080a8aec208d72ef" >
+  <project remote="Influx" name="meta-influx" path="sources/meta-influx" revision="48f84fb1d9f576ce553d1839115570b8787ac705" >
      <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
   </project>
 
