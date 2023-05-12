@@ -29,7 +29,7 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="de0eb1408150d77f9cce97c559f9a5a3c71e5d6c" upstream="kirkstone"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="fc15f5003043da23212596be7366ae2547c308ad" upstream="kirkstone"/>
 
-   <project name="meta-imx" path="sources/meta-imx" remote="nxp-imx" revision="refs/tags/rel_imx_5.15.32_2.0.0_gh" upstream="kirkstone-5.15.32-2.0.0"/>
+  <project name="meta-imx" path="sources/meta-imx" remote="nxp-imx" revision="refs/tags/rel_imx_5.15.32_2.0.0_gh" upstream="kirkstone-5.15.32-2.0.0"/>
 
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="5357c7a40eaf8d1bcf7ff58edbba8e9527e40c7d" upstream="kirkstone"/>
   <project name="meta-python2" path="sources/meta-python2" remote="python2" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone"/>
@@ -44,7 +44,7 @@
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="85d956d95401479ca666139e31f662f60c156d5f" upstream="kirkstone"/>
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="35c364933945dd15b7a96b60675fc304ce6fb881" upstream="kirkstone-5.15.32-2.0.0"/>
 
-  <project remote="Influx" name="meta-influx" path="sources/meta-influx" revision="b8666058008c43c68fe76c52aa57984449152cbe" >
+  <project remote="Influx" name="meta-influx" path="sources/meta-influx" revision="4bb7184c8d13fb68ed7182042596c9cb452b73d8" >
      <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
   </project>
 
