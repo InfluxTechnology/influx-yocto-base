@@ -9,7 +9,8 @@
 
     For this build we recomended for host OS to us Ubuntu 22.04
 
-Install Ubuntu 18.04 After install Ubuntu 22.04 run
+Install Ubuntu 22.04 
+After install Ubuntu 22.04 run
 
 `sudo apt-get update`
 
