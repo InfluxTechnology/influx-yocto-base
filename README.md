@@ -2,6 +2,19 @@
 
 ## HOW TO USE
 
+
+## Setup host OS
+
+==================================
+
+    For this build we recomended for host OS to us Ubuntu 22.04
+
+Install Ubuntu 18.04 After install Ubuntu 22.04 run
+
+`sudo apt-get update`
+
+`sudo apt-get install gawk wget git-core diffstat unzip texinfo \ gcc-multilib build-essential chrpath socat \ libsdl1.2-dev xterm sed cvs subversion \ coreutils texi2html docbook-utils python-pysqlite2 help2man make \ gcc g++ desktop-file-utils libgl1-mesa-dev libglu1-mesa-dev \ mercurial autoconf automake groff curl lzop asciidoc u-boot-tools`
+
 ##### Install the repo tool
 
 The repo tool has been developed to make it easier to manage multiple Git repositories. Instead of downloading each repository separately the repo tool can download all with one instruction. Download and install the tool by following the>
