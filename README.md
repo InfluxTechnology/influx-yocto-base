@@ -44,9 +44,7 @@ In step 7 below a branch must be selected of the influx-yocto-base repository. T
 |Branch name    | Description |
 |-------------- | ------------| 
 |influx-5.15.32 | u-boot: 2022.04. Linux: 5.15.32 |
-|influx-5.15.5  | u-boot: 2022.04. Linux: 5.15.5  |
-|influx-5.10.72 | u-boot: 2021.04. Linux: 5.10.72 |
-|influx-5.10.35 | u-boot: 2021.04. Linux: 5.10.35 |
+
 
 5. Create a directory for the downloaded files (influx-bsp in the example below)
 
