@@ -65,7 +65,7 @@ In step 7 below a branch must be selected of the influx-yocto-base repository. T
 
 7. Initialize repo. The file containing all needed repositories is downloaded in this step. Change <selected branch> to a branch name according to the table above.
 
- `repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b <selected branch>`
+ `repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b influx-5.15.32`
 
 8. Start to download files
 
