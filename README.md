@@ -6,10 +6,10 @@
 ## Setup host OS
 
 ==================================
->For this build we recomended for host OS to us Ubuntu 22.04
+>For this build we recomend the host OS to use Ubuntu 22.04
 
 Install Ubuntu 22.04 
-After install Ubuntu 22.04 run
+After installing Ubuntu 22.04 run
 
 `sudo apt-get update`
 
