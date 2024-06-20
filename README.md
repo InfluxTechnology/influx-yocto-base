@@ -3,7 +3,7 @@
 
 ## Default branch
 
-This default branch is based on Linux:5.15.32 and u-boot:2022.04.
+This branch is based on Linux:6.1.36 and u-boot:2023.04. Yocto mickledore relsease
 It is under construction and can be used only for test purposes.
 
 1. Create a directory for the downloaded files ('build' in the example below)
