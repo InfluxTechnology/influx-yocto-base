@@ -16,7 +16,7 @@
   <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
-
+  <remote name="EA"          fetch="https://github.com/embeddedartists" />
   <remote name="inf"          fetch="https://github.com/InfluxTechnology"/>
   <remote name="Murata"      fetch="https://github.com/murata-wireless"/>
 
