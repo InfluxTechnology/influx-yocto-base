@@ -12,7 +12,7 @@ Install Ubuntu 22.04. After installing Ubuntu 22.04, run
 
 `sudo apt-get update`
 
-`sudo apt-get install gawk wget git-core diffstat unzip texinfo \ gcc-multilib build-essential chrpath socat \ libsdl1.2-dev xterm sed cvs subversion \ coreutils texi2html docbook-utils python-pysqlite2 help2man make \ gcc g++ desktop-file-utils libgl1-mesa-dev libglu1-mesa-dev \ mercurial autoconf automake groff curl lzop asciidoc u-boot-tools`
+`sudo apt-get install gawk wget git-core diffstat unzip texinfo \ gcc-multilib build-essential chrpath socat \ libsdl1.2-dev xterm sed cvs subversion \ coreutils texi2html docbook-utils python-pysqlite2 help2man make \ gcc g++ desktop-file-utils libgl1-mesa-dev libglu1-mesa-dev \ mercurial autoconf automake groff curl lzop asciidoc u-boot-tools zstd pzstd`
 
 **Install the repo tool**
 
@@ -24,7 +24,7 @@ The repo tool has been developed to make it easier to manage multiple Git reposi
 
 2. Download the tool
 
-`curl http://commondatastorage.googleapis.com/git-repodownloads/repo > ~/bin/repo`
+`curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`
 
 3. Make the tool executable
 
