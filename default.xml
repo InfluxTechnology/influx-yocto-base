@@ -43,9 +43,9 @@
   <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="d75afed39c882f5a3418faba1fac51d4d9733f9c" >
      <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
   </project>
-  <project remote="inf" name="meta-inf-rauc" path="sources/meta-inf-rauc" revision="d755eb08d4c0bd64a9e90ef0f1d96a4028137eaa" upstream="mickledore"/>
+  <project remote="inf" name="meta-inf-rauc" path="sources/meta-inf-rauc" revision="51bc53841f6bbd319918aea73206ffc3bf5b247a" upstream="mickledore"/>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="714a116be477c01248327ce2da452b4e900b7a3a" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="f2d0fcf44a28ba1afa57580e7110bb5ec4b8d108" />
 
 
 </manifest>
