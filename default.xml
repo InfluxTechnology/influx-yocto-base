@@ -45,7 +45,7 @@
   </project>
   <project remote="inf" name="meta-inf-rauc" path="sources/meta-inf-rauc" revision="51bc53841f6bbd319918aea73206ffc3bf5b247a" upstream="mickledore"/>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="f2d0fcf44a28ba1afa57580e7110bb5ec4b8d108" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="abb34e519f4e9f08185c74ca1866eea7b145a924" />
 
 
 </manifest>
