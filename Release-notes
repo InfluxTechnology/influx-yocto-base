@@ -1,5 +1,7 @@
 ### Release notes ###
-v.3.0
+v.2.0.rc
+    Linux kernel 5.15.32
+
     Installed image packages
     ------------------------
     python3, i2c-tools-misc, i2c-tools, pciutils, can-utils, iproute2, evtest, alsa-utils, wget, nano,
