@@ -10,7 +10,7 @@
 
   <remote name="community"   fetch="https://github.com/Freescale"/>
   <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
-  <remote name="qt"          fetch="https://code.qt.io/cgit/yocto/"/>
+  <remote name="qt"          fetch="https://code.qt.io/yocto"/>
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
 
   <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
