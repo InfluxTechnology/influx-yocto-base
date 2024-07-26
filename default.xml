@@ -10,7 +10,7 @@
 
   <remote name="community"   fetch="https://github.com/Freescale"/>
   <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
-  <remote name="qt"          fetch="https://code.qt.io/cgit/yocto/meta-qt6.git"/>
+  <remote name="qt"          fetch="https://github.com/victronenergy"/>
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
 
   <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
@@ -34,7 +34,7 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="93ba05e3a16a028b770fa1e813b13eb87a59ac63" upstream="master"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="b09c18a3f649f0cf1b40432bb39e76ba16fe94e2" upstream="master"/>
   <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"/>
-  <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="d4ad3746864a815b9c42bed7f0f81e0471ca975f" upstream="6.7.2"/>
+  <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="74d7d77e23b144cbb801cf6af7ec78b9673158f4" upstream="6.5.2"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="a0c1f045016fd54406888f3750c1355188ffed63" upstream="master"/>
 
   <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.36_2.1.0" upstream="mickledore-6.1.36-2.1.0" />
