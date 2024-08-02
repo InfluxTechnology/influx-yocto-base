@@ -4,8 +4,9 @@ v.2.0.rc
 
     Installed image packages
     ------------------------
-    python3, i2c-tools-misc, i2c-tools, pciutils, can-utils, iproute2, evtest, alsa-utils, wget, nano,
-    gdbserver, openssh-sftp-server, sqlite3, v4l-utils, packagegroup-fsl-gstreamer1.0, packagegroup-fsl-gstreamer1.0-full,
+    python3, python3-pyserial python3-pyserial-asyncio python3-pip,
+    i2c-tools-misc, i2c-tools, pciutils, can-utils, iproute2, evtest, alsa-utils, wget, nano,
+    gdbserver, openssh-sftp-server, sqlite3, v4l-utils, 
     bluez5, bluez5-noinst-tools, bluez5-obex, openobex, obexftp, glibc-gconv-utf-16, glibc-utils, iperf3,
     tslib, tslib-tests, tslib-calibrate, tslib-dev, mtdev, mmc-utils, memtester, screen, u-boot-fw-utils,
     libgpiod, libgpiod-tools, firmwared, hostapd, murata-binaries, cyw-supplicant, cyw-hostapd,
