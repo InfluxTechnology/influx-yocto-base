@@ -12,7 +12,7 @@ v.2.0.rc
     libgpiod, libgpiod-tools, firmwared, hostapd, murata-binaries, cyw-supplicant, cyw-hostapd,
     hostap-conf, hostap-utils, backporttool-linux, uhubctl,
     git, sync, curl, cronie, minicom, wvdial, ppp, fsl-rc-local, uhubctl,
-    influx-files, rexgen-stream, rexgen-usb
+    influx-files, rexgen, rexgen-stream, rexgen-usb
 
     Influx features
     --------------
