@@ -49,7 +49,5 @@
   </project>
 
   <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="e78888e80bd76c82cda5bd8293c7e287cf571a26" />
-
-  <copyfile src="Release-notes" dest="Release-notes"/>
   
 </manifest>
