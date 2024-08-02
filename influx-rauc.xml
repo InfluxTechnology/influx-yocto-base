@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="default.xml"/>
+
+  <remote fetch="https://github.com/rauc" name="rauc"/>
+
+  <project name="meta-rauc" remote="rauc" revision="kirkstone" path="sources/meta-rauc"/>
+  <project name="meta-rauc-community" remote="rauc" revision="kirkstone" path="sources/meta-rauc-community"/>
+
+<!--    under construction
+  <project name="meta-influx-mender" remote="Influx" path="sources/meta-influx-mender" revision="1576b7772a87cf157c98ec04ab90bc77b70e35d8">
+     <linkfile src="scripts/influx-setup-mender.sh" dest="influx-setup-mender.sh"/>
+  </project>
+-->
+
+</manifest>
