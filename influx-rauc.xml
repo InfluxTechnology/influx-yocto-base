@@ -6,9 +6,9 @@
   <remote fetch="https://github.com/rauc" name="rauc"/>
 
   <project name="meta-rauc" remote="rauc" revision="kirkstone" path="sources/meta-rauc"/>
-  <project name="meta-rauc-community" remote="rauc" revision="kirkstone" path="sources/meta-rauc-community"/>
+  <project name="meta-rauc-community" remote="rauc" revision="scarthgap" path="sources/meta-rauc-community"/>
 
-  <project name="meta-inf-rauc" remote="Influx" path="sources/meta-inf-rau" revision="8133a5192097cbaaf99d7dbeac6250683f4fe2a0">
+  <project name="meta-inf-rauc" remote="Influx" path="sources/meta-inf-rauc" revision="8133a5192097cbaaf99d7dbeac6250683f4fe2a0">
      <linkfile src="scripts/influx-setup-rauc.sh" dest="influx-setup-rauc.sh"/>
   </project>
 
