@@ -40,7 +40,7 @@
   <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.36_2.1.0" upstream="mickledore-6.1.36-2.1.0" />
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="7f34a32c7877e55e87b6a99e90da4128ed632bf2" upstream="mickledore-6.1.36-2.1.0"/>
 
-  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="8f8668e2f754801e4a0a78457592f8c75a90c093" >
+  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="b6998d1fa14546f8eee4ae26f1bba75ad98edb75" >
      <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
   </project>
   <project remote="inf" name="meta-inf-rauc" path="sources/meta-inf-rauc" revision="51bc53841f6bbd319918aea73206ffc3bf5b247a" upstream="mickledore"/>
