@@ -27,7 +27,7 @@ All files have now been downloaded into the 'build'. Most of the files will actu
 
 1. Initialize build. Before starting the build, it must be initialized. In this step, the build directory and local configuration files are created.
 
-'source influx-setup-release.sh -b build-dir'
+`source influx-setup-release.sh -b build-dir`
 
 2. Starting the build. Everything has now been set up to start the actual build. Please note that building an image can take many hours, depending on your host computer's capabilities.
 
