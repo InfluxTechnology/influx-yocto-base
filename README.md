@@ -31,12 +31,12 @@ All files have now been downloaded into the 'build'. Most of the files will actu
 
 2. Starting the build. Everything has now been set up to start the actual build. Please note that building an image can take many hours, depending on your host computer's capabilities.
 
-'bitbake redge-image-base'
+`bitbake redge-image-base`
 
 3. Don't restart the build. If you need to restart a build in a new terminal window or after a restart of the host computer, you don’t need to rerun the influx-environment-setup script. Instead, you run the setup-environment script.
 
-'source setup-environment build-dir'
+`source setup-environment build-dir`
 
  4. Deploy the image. In the build folder, a script collects needed files for deployment.
 
-'deploy-image.sh'
+`deploy-image.sh`
