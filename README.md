@@ -23,22 +23,20 @@ It is under construction and can be used only for test purposes.
 
 All files have now been downloaded into the 'build'. Most of the files will actually be available in the sub-directory called sources.
 
-Build an image
+## Build an image
 
-================================
+1. Initialize build. Before starting the build, it must be initialized. In this step, the build directory and local configuration files are created.
 
-    Initialize build. Before starting the build, it must be initialized. In this step, the build directory and local configuration files are created.
+'source influx-setup-release.sh -b build-dir'
 
-source influx-setup-release.sh -b build-dir
+2. Starting the build. Everything has now been set up to start the actual build. Please note that building an image can take many hours, depending on your host computer's capabilities.
 
-    Starting the build. Everything has now been set up to start the actual build. Please note that building an image can take many hours, depending on your host computer's capabilities.
+'bitbake redge-image-base'
 
-bitbake redge-image-base
+3. Don't restart the build. If you need to restart a build in a new terminal window or after a restart of the host computer, you don’t need to rerun the influx-environment-setup script. Instead, you run the setup-environment script.
 
-    Don't restart the build. If you need to restart a build in a new terminal window or after a restart of the host computer, you don’t need to rerun the influx-environment-setup script. Instead, you run the setup-environment script.
+'source setup-environment build-dir'
 
-source setup-environment build-dir
+ 4. Deploy the image. In the build folder, a script collects needed files for deployment.
 
-    Deploy the image. In the build folder, a script collects needed files for deployment.
-
-deploy-image.sh
+'deploy-image.sh'
