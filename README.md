@@ -1,7 +1,7 @@
 # influx-yocto-base
 
 
-## Default branch
+## Download Yocto recipes
 
 This branch is based on Linux:6.1.36 and u-boot:2023.04. Yocto mickledore relsease
 
