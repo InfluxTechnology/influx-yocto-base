@@ -16,7 +16,7 @@ Install Ubuntu 22.04. After installing Ubuntu 22.04, run
 
 **Install the repo tool**
 
-The repo tool has been developed to make it easier to manage multiple Git repositories. Instead of downloading each repository separately, the repo tool can download all with one instruction. Download and install the tool by following the>
+The repo tool has been developed to make it easier to manage multiple Git repositories. Instead of downloading each repository separately, the repo tool can download all with one instruction. Download and install the tool by following the steps.
 
 1. Create a directory for the tool. The example below creates a directory named bin in your home folder.
 
