@@ -17,7 +17,7 @@
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <remote name="inf"          fetch="https://github.com/InfluxTechnology"/>
-  <remote name="Murata"      fetch="https://github.com/InfluxTechnology"/>
+  <remote name="Murata"       fetch="https://github.com/murata-wireless"/>
 
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="0e043288fd0b17fbf31cf00ae33045107a991144" upstream="master"/>
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="d7db0a3bd1a8639df7570483f003ce00cbe274a2" upstream="mickledore"/>
@@ -45,7 +45,7 @@
   </project>
   <project remote="inf" name="meta-inf-rauc" path="sources/meta-inf-rauc" revision="51bc53841f6bbd319918aea73206ffc3bf5b247a" upstream="mickledore"/>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="ad1f8667f4faf809207add6c65edf794a4ebd752" />
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="76254de4f8c4a83c976ac998d90879f75b092a8e"/>
 
 
 </manifest>
