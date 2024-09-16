@@ -17,7 +17,7 @@
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <remote name="inf"          fetch="https://github.com/InfluxTechnology"/>
-  <remote name="Murata"       fetch="https://github.com/murata-wireless"/>
+  <remote name="Murata"       fetch="https://github.com/InfluxTechnology"/> 
 
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="0e043288fd0b17fbf31cf00ae33045107a991144" upstream="master"/>
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="d7db0a3bd1a8639df7570483f003ce00cbe274a2" upstream="mickledore"/>
@@ -40,12 +40,12 @@
   <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.1.36_2.1.0" upstream="mickledore-6.1.36-2.1.0" />
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="7f34a32c7877e55e87b6a99e90da4128ed632bf2" upstream="mickledore-6.1.36-2.1.0"/>
 
-  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="179581ad3f5bf9614abcaf6c30ac1dd9a8d946ec" >
+  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="722c1f0a0ac6c1aa952f118c82336da11eda18ed" >
      <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
   </project>
   <project remote="inf" name="meta-inf-rauc" path="sources/meta-inf-rauc" revision="51bc53841f6bbd319918aea73206ffc3bf5b247a" upstream="mickledore"/>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="76254de4f8c4a83c976ac998d90879f75b092a8e"/>
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="c566a77855a4df1ffdefa054b812fd6ad2526651"/>
 
 
 </manifest>
