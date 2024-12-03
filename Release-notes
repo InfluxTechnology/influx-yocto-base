@@ -1,4 +1,12 @@
 ### Release notes ###
+v 3.1
+    Rexgen tool v.1.17 support SD card functions
+        Format, get general info, log info by index, log count,
+        download all rxd files, download rdx by index, user configured rxd download folder
+    SD card partitions
+        Increased root file system, a new partition for not system files named "/data" 
+    Method to upload rxd files to Amazon S3 server
+        
 v.3.0
     Linux kernel 6.1.36
 
