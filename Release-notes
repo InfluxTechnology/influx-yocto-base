@@ -1,5 +1,5 @@
 ### Release notes ###
-v 3.1
+v 3.1.rc
     Rexgen tool v.1.17 support SD card functions
         Format, get general info, log info by index, log count,
         download all rxd files, download rdx by index, user configured rxd download folder
