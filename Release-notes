@@ -4,8 +4,10 @@ v 3.1
         Format, get general info, log info by index, log count,
         download all rxd files, download rdx by index, user configured rxd download folder
     SD card partitions
-        Increased root file system, a new partition for not system files named "/data" 
+        Increased root file system partition. Created a new partition for not system files named "/data" 
     Method to upload rxd files to Amazon S3 server
+        New tool to connect with Amazon server named aws.
+        Example scripts to download and upload the rxd files from rexgen device and send them to Amazon server.  
         
 v.3.0
     Linux kernel 6.1.36
