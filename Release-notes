@@ -1,4 +1,19 @@
 ### Release notes ###
+v 3.1.1 
+    Embedded Device Wi-Fi Configuration with Captive Porta
+    Features
+        Captive portal for easy Wi-Fi configuration.
+        Automatically switches between Access Point (AP) mode and client mode.
+        Supports Android and iOS captive portal detection.
+        Logs all activity to /var/log/wifi_monitor.log.
+    Installed image packages
+        flask, bash, python3-flask, python3-pip
+    Installed services 
+        /etc/systemd/system/wifi_monitor.service
+        /etc/systemd/system/wifi_monitor.service
+    Included files
+        /opt/Influx/ap_flask
+
 v 3.1.rc
     Rexgen tool v.1.17 support SD card functions
         Format, get general info, log info by index, log count,
