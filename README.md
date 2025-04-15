@@ -15,7 +15,7 @@ It is under construction and can be used only for test purposes.
 
 2. Initialize repo. The file containing all needed repositories is downloaded in this step.
 
- `repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b influx-6.1.36`
+ `repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b influx-6.1.36wi`
 
 3. Start to download files
 
