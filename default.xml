@@ -20,6 +20,11 @@
 
 
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="8e0f8af90fefb03f08cd2228cde7a89902a6b37c" upstream="scarthgap"/>
+  <project name="meta-security" path="sources/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3" upstream="scarthgap"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="9e040ee8dd6025558ea60ac9db60c41bfeddf221" upstream="scarthgap"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="fa7bc4c1a8e1e59d57e6deeaf74f7784975ab9b4" upstream="scarthgap"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="e92d0173a80ea7592c866618ef5293203c50544c" upstream="scarthgap"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="eaa08939eaec9f620b14742ff3ac568553683034" upstream="scarthgap"/>
 
   
   <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="60f79f7af60537146298560079ae603260f0bd14" upstream="master">
