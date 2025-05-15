@@ -32,9 +32,9 @@
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
   
-  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="9b00d40b787c2b7105ce209f5635cc1a0cab81ca" upstream="master"/>
-  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="93ba05e3a16a028b770fa1e813b13eb87a59ac63" upstream="master"/>
-  <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="b09c18a3f649f0cf1b40432bb39e76ba16fe94e2" upstream="master"/>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="a82f138b140f613a06bf9ac60101e4bb511c309f" upstream="scarthgap"/>
+  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d" upstream="scarthgap"/>
+  <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345" upstream="scarthgap"/>
   <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="2dabbb1bc1488f244bf66674fe7268a44dcc0d79" upstream="scarthgap"/>
 
   <!-- -->
