@@ -35,7 +35,7 @@
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="9b00d40b787c2b7105ce209f5635cc1a0cab81ca" upstream="master"/>
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="93ba05e3a16a028b770fa1e813b13eb87a59ac63" upstream="master"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="b09c18a3f649f0cf1b40432bb39e76ba16fe94e2" upstream="master"/>
-  <!-- <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"/> -->
+  <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="2dabbb1bc1488f244bf66674fe7268a44dcc0d79" upstream="scarthgap"/>
   <!-- <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="74d7d77e23b144cbb801cf6af7ec78b9673158f4" upstream="6.5.2"/> -->
   <!-- <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="a0c1f045016fd54406888f3750c1355188ffed63" upstream="master"/> -->
 
