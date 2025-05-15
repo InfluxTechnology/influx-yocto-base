@@ -27,7 +27,7 @@
   <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="eaa08939eaec9f620b14742ff3ac568553683034" upstream="scarthgap"/>
 
   
-  <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="60f79f7af60537146298560079ae603260f0bd14" upstream="master">
+  <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="84df0b1ff416c6739472f7f7eadff04fa90d38f6" upstream="scarthgap">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
