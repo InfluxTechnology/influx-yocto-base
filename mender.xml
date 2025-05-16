@@ -8,8 +8,8 @@
   <project name="meta-mender" remote="mender" revision="master" path="sources/meta-mender"/>
   <project name="meta-mender-community" remote="mender" revision="kirkstone-next" path="sources/meta-mender-community"/>
 
-  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="14140a55ecd4bc960f48808553a5d5680a141f01">
+  <!-- <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="14140a55ecd4bc960f48808553a5d5680a141f01">
      <linkfile src="conf/mender/influx-setup-mender.sh" dest="influx-setup-mender.sh"/>
-  </project>
+  </project> -->
 
 </manifest>
