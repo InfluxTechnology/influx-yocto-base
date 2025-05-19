@@ -47,7 +47,7 @@
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="8fd7154c05b716e9635279047f65785399432d88" upstream="scarthgap-6.6.36-2.1.0"/> 
   
   <!-- <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="0e444c9ac984114e1d9f1e7fe3368f46210a5414" > -->
-  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="f092b3e94ed18b85a6f1c270ef4d0ab46db780ef" >
+  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="5d668541f2fa60c020e1ece3ea39938d8647bc9e" >
      <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
   </project>
 
