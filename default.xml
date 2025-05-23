@@ -51,6 +51,6 @@
      <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
   </project>
 
-  <!-- <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="c566a77855a4df1ffdefa054b812fd6ad2526651"/> -->
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="f2d0fcf44a28ba1afa57580e7110bb5ec4b8d108"/>
 
 </manifest>
