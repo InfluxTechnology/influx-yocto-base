@@ -16,8 +16,8 @@
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <remote name="inf"          fetch="https://github.com/InfluxTechnology"/>
-  <remote name="Murata"       fetch="https://github.com/InfluxTechnology"/> 
-
+  <!-- <remote name="Murata"       fetch="https://github.com/InfluxTechnology"/> -->
+  <remote name="Murata"      fetch="https://github.com/murata-wireless"/>
 
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="8e0f8af90fefb03f08cd2228cde7a89902a6b37c" upstream="scarthgap"/>
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3" upstream="scarthgap"/>
@@ -51,6 +51,7 @@
      <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
   </project>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="287569501954133ba913b544d2ba02f4be23e90e"/>
-
+  <!-- <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="287569501954133ba913b544d2ba02f4be23e90e"/> -->
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="ffd3a8d379820e6eae80ff83a2c0aa7af0ea15f1" />
+  
 </manifest>
