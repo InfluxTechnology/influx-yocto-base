@@ -54,7 +54,7 @@
      <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
   </project>
 
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="19fd0f8a72ce3249ae5e6c62c6c4eaf5966e762c"/> 
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="19fd0f8a72ce3249ae5e6c62c6c4eaf5966e762c" upstream="inf-imx-scarthgap-jaculus"/> 
   <!-- <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="ffd3a8d379820e6eae80ff83a2c0aa7af0ea15f1" /> -->
   
 </manifest>
