@@ -43,12 +43,11 @@
   <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.6.36_2.1.0" upstream="scarthgap-6.6.36-2.1.0" /> 
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="8fd7154c05b716e9635279047f65785399432d88" upstream="scarthgap-6.6.36-2.1.0"/> 
   
-  <!--<project remote="inf" name="meta-influx" path="sources/meta-influx" revision="686bea007bf4ab40358689602a902bfda9933bb0" > -->
-  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="36989d870e92cb7c209cf4f35ee562a645867527" > 
+  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="64647eb72e0b5e3ccb365ea9ebab6bbce2f240b5" >
+  <!-- <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="36989d870e92cb7c209cf4f35ee562a645867527" > --> 
      <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
   </project>
 
   <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="19fd0f8a72ce3249ae5e6c62c6c4eaf5966e762c" upstream="inf-imx-scarthgap-jaculus"/> 
-  <!-- <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="ffd3a8d379820e6eae80ff83a2c0aa7af0ea15f1" /> -->
   
 </manifest>
