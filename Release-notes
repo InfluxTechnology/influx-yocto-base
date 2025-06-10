@@ -1,7 +1,11 @@
 ### Release notes ###
 v 4.0
+  Distro 6.6-scarthgap
   Linux kernel 6.6.23
-  
+  U-boot 2024.04
+
+  Influx features
+    
 v 3.1.rc
     Rexgen tool v.1.17 support SD card functions
         Format, get general info, log info by index, log count,
@@ -16,6 +20,7 @@ v 3.1.rc
 
     Installed image packages
         mc (midnight comamnder), htop
+
 v.3.0
     Linux kernel 6.1.36
 
