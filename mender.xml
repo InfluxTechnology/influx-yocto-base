@@ -8,7 +8,7 @@
   <project name="meta-mender" remote="mender" revision="scarthgap" path="sources/meta-mender"/>
   <project name="meta-mender-community" remote="mender" revision="scarthgap" path="sources/meta-mender-community"/>
 
-  <project remote="inf" name="meta-influx-mender" path="sources/meta-influx-mender" revision="f0f82845e317833472ca3bb52f64798096abd90f">
+  <project remote="inf" name="meta-influx-mender" path="sources/meta-influx-mender" revision="82f7f47226f2df497e4904db5eeea27406702e12">
      <linkfile src="scripts/influx-setup-mender.sh" dest="influx-setup-mender.sh"/>
   </project> 
 
