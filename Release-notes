@@ -3,6 +3,7 @@ v 4.0
   Distro 6.6-scarthgap
   Linux kernel 6.6.23
   U-boot 2024.04
+  Mender support
 
   Influx features
     
