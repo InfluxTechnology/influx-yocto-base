@@ -5,6 +5,10 @@
 
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
 
+  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="influx-6.6.23" >
+     <copyfile src="influx-setup-default.sh" dest="influx-setup-default.sh"/> 
+  </project>
+  
   <project name="meta-mender" remote="mender" revision="scarthgap" path="sources/meta-mender"/>
   <project name="meta-mender-community" remote="mender" revision="scarthgap" path="sources/meta-mender-community"/>
 
