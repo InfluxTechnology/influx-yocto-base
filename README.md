@@ -14,10 +14,16 @@ It is under construction and can be used only for test purposes.
 
 2. Initialize repo. The file containing all needed repositories is downloaded in this step.
 
- `repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b influx-6.6.23 -m mender.xml`
+ `repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b influx-6.6.23`
 
 3. Start to download files
 
  `repo sync`
 
 All files have now been downloaded into the 'build'. Most of the files will actually be available in the sub-directory called sources.
+
+## Mender support
+
+Steps 1 and 3 are identical as above, step 2 need be this:
+
+`repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b influx-6.6.23 -m mender.xml`
