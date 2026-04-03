@@ -21,7 +21,7 @@
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="b68089f2648d712b9406d0e88c71758913267f81" upstream="walnascar"/>
   <project name="poky" remote="yocto" path="sources/poky" revision="d0b46a6624ec9c61c47270745dd0b2d5abbe6ac1" upstream="walnascar"/>
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="1f7eeb8e84811fa79b98f236ade42dc52d44cfc6" upstream="walnascar"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="38008d99d5bedc7d9769b9e95e3d6019a2df1698" upstream=""walnascar"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="38008d99d5bedc7d9769b9e95e3d6019a2df1698" upstream="walnascar"/>
   
   <!-- <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="e92d0173a80ea7592c866618ef5293203c50544c" upstream=""walnascar"/>
   <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="eaa08939eaec9f620b14742ff3ac568553683034" upstream=""walnascar"/>
