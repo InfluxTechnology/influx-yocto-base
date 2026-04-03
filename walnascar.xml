@@ -34,12 +34,12 @@
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="5ba0c7cfdba9bc7c4495f0cdf1c195f45b7164a6" upstream="walnascar"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="b9c3536b68271c420fe5de36fc284781ceaa32ab" upstream="walnascar"/>
     
-  <!-- <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="2dabbb1bc1488f244bf66674fe7268a44dcc0d79" upstream="walnascar"/>
+  <!-- <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="2dabbb1bc1488f244bf66674fe7268a44dcc0d79" upstream="walnascar"/> -->
 
   <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="01b823bdddeca3ea0372acd0056787b635a7199e" upstream="6.6.3"/> 
-  <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="9198603d7d11367dcce1c2516857ab1db41f132f" upstream="walnascar"/>
+  <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="f4208c18d615bf91d1595f82e8c29123bbab070d" upstream="walnascar"/>
 
-  <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.6.36_2.1.0" upstream="scarthgap-6.6.36-2.1.0" /> 
+  <!-- <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.6.36_2.1.0" upstream="scarthgap-6.6.36-2.1.0" /> 
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="8fd7154c05b716e9635279047f65785399432d88" upstream="scarthgap-6.6.36-2.1.0"/> 
 
   <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="inf-imx-scarthgap-jaculus"/> -->
