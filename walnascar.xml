@@ -18,7 +18,7 @@
   <remote name="inf"          fetch="https://github.com/InfluxTechnology"/>
   <remote name="Murata"       fetch="https://github.com/InfluxTechnology"/> 
 
-  <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="8e0f8af90fefb03f08cd2228cde7a89902a6b37c" upstream="walnascar"/>
+  <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="b68089f2648d712b9406d0e88c71758913267f81" upstream="walnascar"/>
   <!-- <project name="meta-security" path="sources/meta-security" remote="yocto" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3" upstream="scarthgap"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="9e040ee8dd6025558ea60ac9db60c41bfeddf221" upstream="scarthgap"/>
   <project name="poky" remote="yocto" path="sources/poky" revision="02eacd385eca7aa9cf25aaaa61427aa9c126e0bc" upstream="scarthgap"/>
