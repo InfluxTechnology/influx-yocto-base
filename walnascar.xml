@@ -23,15 +23,15 @@
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="1f7eeb8e84811fa79b98f236ade42dc52d44cfc6" upstream="walnascar"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="38008d99d5bedc7d9769b9e95e3d6019a2df1698" upstream="walnascar"/>
   
-  <!-- <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="e92d0173a80ea7592c866618ef5293203c50544c" upstream=""walnascar"/>
-  <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="eaa08939eaec9f620b14742ff3ac568553683034" upstream=""walnascar"/>
+  <<project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="07330a98cf93806b7a4e0170a541b94962ff3960" upstream=""walnascar"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="kraj" revision="5945abf78de6c4b0269c4496fb63227344f79df7" upstream=""walnascar"/>
 
-  <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="84df0b1ff416c6739472f7f7eadff04fa90d38f6" upstream=""walnascar">
+  <project name="fsl-community-bsp-base" path="sources/base" remote="community" revision="1705821f266d87688e7b3fb92d5535d1725aefe6" upstream=""walnascar">
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
   
-  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="a82f138b140f613a06bf9ac60101e4bb511c309f" upstream=""walnascar"/>
+ <!-- <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="a82f138b140f613a06bf9ac60101e4bb511c309f" upstream=""walnascar"/>
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="70c83e96c7f75e73245cb77f1b0cada9ed4bbc6d" upstream=""walnascar"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345" upstream=""walnascar"/>
   <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="2dabbb1bc1488f244bf66674fe7268a44dcc0d79" upstream=""walnascar"/>
