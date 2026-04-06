@@ -44,9 +44,9 @@
 
   <!-- <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="inf-imx-scarthgap-jaculus"/> -->
 
-  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="influx-6.6.23-pro" >
+  <!-- <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="influx-6.6.23-pro" >
      <copyfile src="influx-setup-default.sh" dest="influx-setup-default.sh"/> 
-  </project>
+  </project> -->
   
   
 </manifest>
