@@ -44,11 +44,11 @@
   <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="4d4651bec66c22aa91f1f8897140e77e20773ec4" upstream="walnascar-6.12.34-2.1.0" /> 
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="a5bc57e29f177e7ac801a68ece97b3c141f1a423" upstream="walnascar-6.12.34-2.1.0"/> 
 
-  <!-- <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="inf-imx-scarthgap-jaculus"/> -->
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="inf-imx-scarthgap-jaculus"/> 
 
-  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="influx-6.6.23-pro" >
+  <!-- <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="influx-6.6.23-pro" >
      <copyfile src="influx-setup-default.sh" dest="influx-setup-default.sh"/> 
-  </project> 
+  </project>  -->
   
   
 </manifest>
