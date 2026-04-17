@@ -9,7 +9,7 @@
 
   <remote name="community"   fetch="https://github.com/Freescale"/>
   <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
-  <remote name="qt"          fetch="https://github.com/victronenergy"/>
+  <remote name="qt"          fetch="https://github.com/YoeDistro"/>
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
 
   <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
@@ -36,7 +36,6 @@
     
   <!-- <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="2dabbb1bc1488f244bf66674fe7268a44dcc0d79" upstream="walnascar"/> -->
 
-  <!-- <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="01b823bdddeca3ea0372acd0056787b635a7199e" upstream="6.6.3"/>  -->
   <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="00c3bd954341a2a755fdee6b978af952f51793e7" upstream="6.8.3" />
   <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="f4208c18d615bf91d1595f82e8c29123bbab070d" upstream="walnascar"/>
 
