@@ -36,7 +36,11 @@
   
   <project name="meta-qt6" remote="qt" path="sources/meta-qt6" revision="00c3bd954341a2a755fdee6b978af952f51793e7" upstream="6.8.3" />
   <project name="meta-timesys" remote="timesys" path="sources/meta-timesys"  revision="3c362eeeb68523a88c2301e29ab1fd4802284e50" upstream="master" />
-  
+
+  <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.12.34_2.1.0" upstream="walnascar-6.12.34.2.1.0">
+     <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh" />
+     <linkfile src="README.md" dest="README.md" />
+  </project>
   <!-- <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="4d4651bec66c22aa91f1f8897140e77e20773ec4" upstream="walnascar-6.12.34-2.1.0" /> 
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="a5bc57e29f177e7ac801a68ece97b3c141f1a423" upstream="walnascar-6.12.34-2.1.0"/> 
 
