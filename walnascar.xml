@@ -33,12 +33,10 @@
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="7815951fa743abaaccbcfd0377b377c399aa23e6" upstream="walnascar"/>
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="5ba0c7cfdba9bc7c4495f0cdf1c195f45b7164a6" upstream="walnascar"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="b9c3536b68271c420fe5de36fc284781ceaa32ab" upstream="walnascar"/>
-    
-  <!-- <project name="meta-browser" path="sources/meta-browser" remote="ossystems" revision="2dabbb1bc1488f244bf66674fe7268a44dcc0d79" upstream="walnascar"/> -->
-
-  <project name="meta-qt6" path="sources/meta-qt6" remote="qt" revision="00c3bd954341a2a755fdee6b978af952f51793e7" upstream="6.8.3" />
-  <project name="meta-timesys" path="sources/meta-timesys" remote="timesys" revision="f4208c18d615bf91d1595f82e8c29123bbab070d" upstream="walnascar"/>
-
+  
+  <project name="meta-qt6" remote="qt" path="sources/meta-qt6" revision="00c3bd954341a2a755fdee6b978af952f51793e7" upstream="6.8.3" />
+  <project name="meta-timesys" remote="timesys" path="sources/meta-timesys"  revision="3c362eeeb68523a88c2301e29ab1fd4802284e50" upstream="master" />
+  
   <!-- <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="4d4651bec66c22aa91f1f8897140e77e20773ec4" upstream="walnascar-6.12.34-2.1.0" /> 
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="a5bc57e29f177e7ac801a68ece97b3c141f1a423" upstream="walnascar-6.12.34-2.1.0"/> 
 
