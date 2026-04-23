@@ -51,7 +51,7 @@
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="dc99b1a8a71aa8765b693e7e9438818d9b5c61e9" upstream="scarthgap"/> -->
 
   <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="influx-6.6.23" > 
-     <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
+     <copyfile src="influx-setup-default.sh" dest="influx-setup-default.sh"/>
   </project>
 
   <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="119846fe435349b059dcb9ca30da9102b63c69cf" />
