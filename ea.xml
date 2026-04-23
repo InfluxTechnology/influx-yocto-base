@@ -1,4 +1,7 @@
-<default revision="walnascar" sync-j="4"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <default revision="walnascar" sync-j="4"/>
 
   <remote name="yp"          fetch="https://git.yoctoproject.org"/>
   <remote name="oe"          fetch="https://github.com/openembedded"/>
