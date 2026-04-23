@@ -12,7 +12,8 @@
   <remote name="imx"         fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
-  <remote name="EA"          fetch="https://github.com/embeddedartists"/>
+  <!-- <remote name="EA"          fetch="https://github.com/embeddedartists"/> -->
+  <remote name="inf"          fetch="https://github.com/InfluxTechnology"/>  
   <remote name="Murata"      fetch="https://github.com/murata-wireless"/>
 
   <project name="poky" remote="yp" path="sources/poky" revision="b642d6a4a93a23d5b99886844ff7b224aa7e13bf" upstream="walnascar" />
@@ -45,6 +46,10 @@
   </project>
   <project remote="EA" name="meta-ea-dx" path="sources/meta-ea-dx" revision="4c3f31760b0b74a1e251f101d4ae53ca16a7f82c" upstream="walnascar"/>
   <project remote="EA" name="meta-ea-rauc" path="sources/meta-ea-rauc" revision="dc99b1a8a71aa8765b693e7e9438818d9b5c61e9" upstream="scarthgap"/> -->
+
+  <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="influx-6.6.23" > 
+     <copyfile src="influx-setup-release.sh" dest="influx-setup-release.sh"/>
+  </project>
 
   <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="119846fe435349b059dcb9ca30da9102b63c69cf" />
 
