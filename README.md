@@ -27,3 +27,7 @@ All files have now been downloaded into the 'build'. Most of the files will actu
 Steps 1 and 3 are identical as above, step 2 need be this:
 
 `repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b influx-6.6.23 -m mender.xml`
+
+Available also version with single partition, that can not update full image, just only single files/folders. 
+
+`repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b influx-6.6.23 -m single.xml`
