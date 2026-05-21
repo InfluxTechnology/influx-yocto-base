@@ -42,6 +42,6 @@
   <project name="meta-imx" remote="nxp-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.6.36_2.1.0" upstream="scarthgap-6.6.36-2.1.0" /> 
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="8fd7154c05b716e9635279047f65785399432d88" upstream="scarthgap-6.6.36-2.1.0"/> 
   
-  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="19fd0f8a72ce3249ae5e6c62c6c4eaf5966e762c" upstream="inf-imx-scarthgap-jaculus"/> 
+  <project remote="Murata" name="meta-murata-wireless" path="sources/meta-murata-wireless" revision="inf-imx-scarthgap-jaculus"/> 
 
 </manifest>
