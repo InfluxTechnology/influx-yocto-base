@@ -57,7 +57,7 @@ cd build
 
 Initialize repo. The file containing all needed repositories is downloaded in this step 
 ```bash
-repo init -u https://github.com/InfluxTechnology/linux-rexgen-base -b influx-6.6.23 -m base.xml 
+repo init -u https://github.com/InfluxTechnology/influx-yocto-base -b influx-6.6.23 -m base.xml 
 ```
 Start to download files:
 ```bash
