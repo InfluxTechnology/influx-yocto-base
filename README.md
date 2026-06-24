@@ -78,7 +78,7 @@ source influx-setup-release.sh -b build-dir
 
 Starting the build. Everything has now been set up to start the actual build. Please note that building an image can take many hours, depending on your host computer's capabilities.
 ```bash
-bitbake influx-image-басе
+bitbake influx-image-base
 ```
 
 Don't restart the build. If you need to restart a build in a new terminal window or after a restart of the host computer, you don’t need to rerun the influx-setup script. Instead, you run the setup-environment script.
