@@ -4,7 +4,7 @@
   <include name="common.xml"/> 
 
   <project remote="inf" name="meta-influx" path="sources/meta-influx" revision="influx-6.6.23-base" >
-     <copyfile src="influx-setup-default.sh" dest="influx-setup-default.sh"/> 
+     <copyfile src="influx-setup-sdk.sh" dest="influx-setup-default.sh"/> 
   </project>
   
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
